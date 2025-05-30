@@ -1,0 +1,523 @@
+{
+  "meals": [
+    {
+      "id": "1",
+      "name": "Meal 1",
+      "description": "Meal 1 description",
+      "price": 100,
+      "createdAt": "2021-01-01",
+      "updatedAt": "2021-01-01",
+      "restaurants": [
+        "OC"
+      ],
+      "type": "veg",
+      "spiceLevel": "medium"
+    },
+    {
+      "id": "m1",
+      "name": "m1",
+      "description": "lavis m1",
+      "price": 20,
+      "restaurants": [
+        "BP"
+      ],
+      "type": "veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "f165",
+      "name": "m3",
+      "description": "m3",
+      "price": 2000,
+      "restaurants": [
+        "BP",
+        "OC"
+      ],
+      "type": "veg",
+      "spiceLevel": "mild"
+    },
+    {
+      "id": "206f",
+      "name": "m5",
+      "description": "m5",
+      "price": 100,
+      "restaurants": [
+        "OC",
+        "SC",
+        "RC",
+        "BH"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "6443",
+      "name": "m10",
+      "description": "m10",
+      "price": 20,
+      "restaurants": [
+        "OC",
+        "BP",
+        "SC"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "Mild"
+    },
+    {
+      "id": "e6b1",
+      "name": "m1",
+      "description": "m1",
+      "price": 1000,
+      "restaurants": [
+        "GFD"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "Medium"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "GFD",
+      "name": "Green Leaf Diner",
+      "status": "active",
+      "subscriptionsOffered": [
+        "monthly",
+        "weekly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "OC",
+      "name": "Oceanic Grill",
+      "status": "inactive"
+    },
+    {
+      "id": "BP",
+      "name": "Bella Pasta",
+      "status": "inactive"
+    },
+    {
+      "id": "SC",
+      "name": "Sunrise Café",
+      "status": "inactive"
+    },
+    {
+      "id": "RC",
+      "name": "Royal Curry",
+      "status": "active"
+    },
+    {
+      "id": "BH",
+      "name": "Burger Hub",
+      "status": "active"
+    },
+    {
+      "id": "SW",
+      "name": "Sushi World",
+      "status": "active"
+    },
+    {
+      "id": "TF",
+      "name": "Taco Fiesta",
+      "status": "active"
+    },
+    {
+      "id": "a6d7",
+      "name": "r1",
+      "status": "active"
+    },
+    {
+      "id": "kfc",
+      "name": "Mohammed Sohail",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2,
+        3
+      ],
+      "status": "inactive"
+    },
+    {
+      "id": "s1",
+      "name": "s2",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        3,
+        2
+      ],
+      "status": "inactive"
+    },
+    {
+      "id": "s3",
+      "name": "s3",
+      "subscriptionsOffered": [
+        "daily"
+      ],
+      "mealsPerDayOffered": [
+        3
+      ],
+      "status": "active"
+    },
+    {
+      "id": "s4",
+      "name": "s4",
+      "subscriptionsOffered": [
+        "daily"
+      ],
+      "mealsPerDayOffered": [
+        3
+      ],
+      "status": "active"
+    },
+    {
+      "id": "s10",
+      "name": "s10",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2
+      ],
+      "status": "active"
+    },
+    {
+      "id": "s11",
+      "name": "s11",
+      "email": "s11@gmail.com",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly",
+        "monthly",
+        "yearly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2,
+        3
+      ],
+      "status": "active"
+    },
+    {
+      "id": "s12",
+      "name": "r12",
+      "email": "01sohailkhann@gmail.com",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly"
+      ],
+      "mealsPerDayOffered": [
+        3,
+        2
+      ],
+      "status": "active"
+    },
+    {
+      "id": "r1",
+      "name": "r2",
+      "email": "07mohammedsohail@gmail.com",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ],
+      "status": "active"
+    },
+    {
+      "id": "r3r3",
+      "name": "r3r3",
+      "email": "r3r3@gmail.com",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly",
+        "monthly",
+        "yearly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2,
+        3
+      ],
+      "status": "active"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Sohail",
+      "email": "sohail@gmail.com",
+      "subscription": {
+        "id": "2"
+      },
+      "status": "inactive",
+      "restaurant": {
+        "id": "OC"
+      },
+      "mealsPerDay": 3
+    },
+    {
+      "id": "2",
+      "name": "s2",
+      "email": "s2@gmail.com",
+      "subscription": {
+        "id": "3"
+      },
+      "status": "active",
+      "restaurant": {
+        "id": "BP"
+      },
+      "mealsPerDay": 2
+    },
+    {
+      "id": "3",
+      "name": "s3",
+      "email": "s3@gmail.com",
+      "subscription": {
+        "id": "4"
+      },
+      "status": "active",
+      "restaurant": {
+        "id": "BH"
+      },
+      "mealsPerDay": 2
+    },
+    {
+      "id": "4",
+      "name": "s4",
+      "email": "s4",
+      "subscription": {
+        "id": "3"
+      },
+      "restaurant": {
+        "id": "BP"
+      },
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "name": "s5",
+      "email": "s5",
+      "subscription": {
+        "id": "2"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "OC"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": "6",
+      "name": "s06",
+      "email": "s06",
+      "subscription": {
+        "id": "1"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "s12"
+      },
+      "status": "active"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "1",
+      "name": "Daily",
+      "price": 50,
+      "createdAt": "2021-01-01",
+      "updatedAt": "2021-01-01",
+      "users": [
+        "3",
+        "2",
+        "4"
+      ],
+      "restaurants": [
+        "BH"
+      ],
+      "meals": [
+        "m1"
+      ],
+      "time": [
+        "lunch",
+        "breakfast",
+        "dinner"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Weekly",
+      "price": 300,
+      "createdAt": "2021-01-01",
+      "updatedAt": "2021-01-01",
+      "users": [
+        "6",
+        "5"
+      ],
+      "restaurants": [
+        "r1",
+        "s12",
+        "s11"
+      ],
+      "meals": [
+        "6443",
+        "206f",
+        "1"
+      ],
+      "days": [
+        "Sunday",
+        "Saturday",
+        "Friday",
+        "Thursday",
+        "Wednesday",
+        "Tuesday",
+        "Monday"
+      ],
+      "time": [
+        "breakfast",
+        "lunch"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Monthly",
+      "price": 1200,
+      "createdAt": "2021-01-01",
+      "updatedAt": "2021-01-01",
+      "meals": [
+        "6443",
+        "206f"
+      ],
+      "restaurants": [
+        "RC",
+        "SC"
+      ],
+      "time": [
+        "dinner"
+      ],
+      "days": [
+        "Sunday",
+        "Monday",
+        "Wednesday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Yearly",
+      "price": 15000,
+      "createdAt": "2021-01-01",
+      "updatedAt": "2021-01-01",
+      "restaurants": [
+        "TF"
+      ],
+      "meals": [
+        "f165"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "time": [
+        "breakfast"
+      ]
+    },
+    {
+      "id": "a921",
+      "name": "alternative",
+      "price": 175,
+      "restaurants": [
+        "GFD",
+        "SW",
+        "TF"
+      ],
+      "meals": [
+        "1",
+        "m1",
+        "f165"
+      ],
+      "days": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Sunday"
+      ],
+      "users": [
+        "3",
+        "4"
+      ],
+      "time": [
+        "lunch"
+      ]
+    },
+    {
+      "id": "726a",
+      "name": "Premium",
+      "price": 18000,
+      "restaurants": [
+        "OC"
+      ],
+      "meals": [
+        "1",
+        "m1",
+        "f165",
+        "206f",
+        "6443"
+      ],
+      "time": [
+        "lunch"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": null,
+      "restaurantId": "1",
+      "createdAt": "2021-01-01",
+      "updatedAt": "2021-01-01"
+    }
+  ]
+}

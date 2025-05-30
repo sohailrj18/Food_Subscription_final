@@ -1,0 +1,47 @@
+type,id,name,email,subscription,status,restaurant,mealsPerDay
+users,1,Sohail,sohail@gmail.com,"{"id":"2"}",inactive,"{"id":"OC"}",3
+users,2,s2,s2@gmail.com,"{"id":"3"}",active,"{"id":"BP"}",2
+users,3,s3,s3@gmail.com,"{"id":"4"}",active,"{"id":"BH"}",2
+users,4,s4,s4,"{"id":"3"}",active,"{"id":"BP"}",
+users,5,s5,s5,"{"id":"2"}",inactive,"{"id":"OC"}",2
+users,6,s06,s06,"{"id":"1"}",active,"{"id":"s12"}",2
+
+type,id,name,status,subscriptionsOffered,mealsPerDayOffered
+restaurants,GFD,Green Leaf Diner,inactive,"monthly;weekly","2;3"
+restaurants,OC,Oceanic Grill,inactive,,
+restaurants,BP,Bella Pasta,inactive,,
+restaurants,SC,Sunrise Café,inactive,,
+restaurants,RC,Royal Curry,active,,
+restaurants,BH,Burger Hub,active,,
+restaurants,SW,Sushi World,active,,
+restaurants,TF,Taco Fiesta,active,,
+restaurants,a6d7,r1,active,,
+restaurants,kfc,Mohammed Sohail,inactive,"daily;weekly;monthly","1;2;3"
+restaurants,s1,s2,inactive,"daily;weekly;monthly","3;2"
+restaurants,s3,s3,active,"daily","3"
+restaurants,s4,s4,active,"daily","3"
+restaurants,s10,s10,active,"daily;weekly;monthly","1;2"
+restaurants,s11,s11,active,"daily;weekly;monthly;yearly","1;2;3"
+restaurants,s12,r12,active,"daily;weekly","3;2"
+restaurants,r1,r2,active,"weekly;monthly","2;3"
+restaurants,r3r3,r3r3,active,"daily;weekly;monthly;yearly","1;2;3"
+
+type,id,name,description,price,createdAt,updatedAt,restaurants,type,spiceLevel
+meals,1,Meal 1,Meal 1 description,100,2021-01-01,2021-01-01,"OC",veg,medium
+meals,m1,m1,lavis m1,20,,,"BP",veg,hot
+meals,f165,m3,m3,2000,,,"BP;OC",veg,mild
+meals,206f,m5,m5,100,,,"OC;SC;RC;BH",non-veg,hot
+meals,6443,m10,m10,20,,,"OC;BP;SC",non-veg,Mild
+meals,e6b1,m1,m1,1000,,,"GFD",non-veg,Medium
+
+type,id,name,price,createdAt,updatedAt,users,restaurants,meals,time,days
+subscriptions,1,Daily,50,2021-01-01,2021-01-01,"3;2;4","BH","m1","lunch;breakfast;dinner","Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday"
+subscriptions,2,Weekly,300,2021-01-01,2021-01-01,"6;5","r1;s12;s11","6443;206f;1","breakfast;lunch","Sunday;Saturday;Friday;Thursday;Wednesday;Tuesday;Monday"
+subscriptions,3,Monthly,1200,2021-01-01,2021-01-01,,"RC;SC","6443;206f","dinner","Sunday;Monday;Wednesday;Tuesday;Thursday;Friday;Saturday"
+subscriptions,4,Yearly,15000,2021-01-01,2021-01-01,,"TF","f165","breakfast","Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday"
+subscriptions,a921,alternative,175,,,"3;4","GFD;SW;TF","1;m1;f165","lunch","Monday;Wednesday;Friday;Sunday"
+subscriptions,726a,Premium,18000,,,,"OC","1;m1;f165;206f;6443","lunch","Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday"
+
+type,id,userId,restaurantId,createdAt,updatedAt
+orders,1,,1,2021-01-01,2021-01-01
+
