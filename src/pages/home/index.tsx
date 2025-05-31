@@ -89,7 +89,6 @@ export const HomePage = () => {
         ))}
       </Row>
 
-      {/* Order Now Section */}
     
     </div>
   );
