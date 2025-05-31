@@ -27,24 +27,13 @@ import { BrowserRouter, Outlet, Route, Routes, Navigate } from "react-router";
 import { authProvider } from "./authProvider";
 import { Header } from "./components/header";
 import { ColorModeContextProvider } from "./contexts/color-mode";
-// import {
-//   BlogPostCreate,
-//   BlogPostEdit,
-//   BlogPostList,
-//   BlogPostShow,
-// } from "./pages/blog-posts";
-// import {
-//   CategoryCreate,
-//   CategoryEdit,
-//   CategoryList,
-//   CategoryShow,
-// } from "./pages/categories";
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 import { ReactElement } from "react";
 
 // routes import
+import { HomePage } from "./pages/home";
 import { UserList, UserCreate, UserEdit, UserShow } from "./pages/users";
 import {
   RestaurantList,
@@ -62,10 +51,11 @@ import {
 import { OrderList, OrderShow } from "./pages/orders";
 
 type resourceRoute = {
-  createRoute: ReactElement;
-  editRoute: ReactElement;
-  listRoute: ReactElement;
-  showRoute: ReactElement;
+  createRoute?: ReactElement;
+  editRoute?: ReactElement;
+  listRoute?: ReactElement;
+  showRoute?: ReactElement;
+  customRoute?: ReactElement;
 };
 interface MyResource {
   resource: string;
@@ -74,6 +64,14 @@ interface MyResource {
 }
 
 const myRoutes: MyResource[] = [
+
+  {
+    resource: "home",
+    icon: <i className="bx  bx-home"></i>,
+    routes : {
+       listRoute: <HomePage />,
+    }
+  },
   {
     resource: "users",
     icon: <i className="bx  bx-user"></i>,
@@ -182,18 +180,6 @@ function App() {
                       index
                       element={<Navigate to="/login" replace />}
                     />
-                    {/* <Route path="/blog-posts">
-                      <Route index element={<BlogPostList />} />
-                      <Route path="create" element={<BlogPostCreate />} />
-                      <Route path="edit/:id" element={<BlogPostEdit />} />
-                      <Route path="show/:id" element={<BlogPostShow />} />
-                    </Route>
-                    <Route path="/categories">
-                      <Route index element={<CategoryList />} />
-                      <Route path="create" element={<CategoryCreate />} />
-                      <Route path="edit/:id" element={<CategoryEdit />} />
-                      <Route path="show/:id" element={<CategoryShow />} />
-                    </Route> */}
                     {/* Use Case Routes */}
                     {myRoutes.map((resource: MyResource) => (
                       <Route

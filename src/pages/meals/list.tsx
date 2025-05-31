@@ -12,7 +12,10 @@ import { useState } from "react";
 
 
 export const MealList = () => {
-  const { tableProps, setFilters } = useTable();
+  const { tableProps, setFilters } = useTable({
+    syncWithLocation: true,
+    pagination: { pageSize: 25 },
+  });
   const [typeFilter, setTypeFilter] = useState("");
 
   // Find all restaurants for each meal

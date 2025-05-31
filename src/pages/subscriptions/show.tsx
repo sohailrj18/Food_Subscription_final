@@ -100,9 +100,7 @@ export const SubscriptionShow = () => {
       <Descriptions column={1} bordered>
         <Descriptions.Item label="Name">{record?.name}</Descriptions.Item>
         <Descriptions.Item label="Price">{record?.price}</Descriptions.Item>
-        <Descriptions.Item label="Users">
-          {renderTags(record?.users, usersData)}
-        </Descriptions.Item>
+        
         <Descriptions.Item label="Restaurants">
           {renderTags(record?.restaurants, restaurantsData)}
         </Descriptions.Item>

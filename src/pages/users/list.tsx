@@ -12,6 +12,7 @@ import { Select, Space, Table } from "antd";
 export const UserList: React.FC = () => {
   const { tableProps, filters, setFilters } = useTable({
     syncWithLocation: true,
+        pagination: { pageSize: 25 },
     // Removed filters.initial to show all users by default
   });
 
