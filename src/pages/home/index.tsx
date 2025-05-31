@@ -67,7 +67,13 @@ export const HomePage = () => {
       </Row>
 
       {/* Section 3: Subscriptions */}
-      <Title level={4}>Subscription Plans</Title>
+      <div style={{ display: "flex", gap: "12px", justifyContent: "space-between"}}>
+        <Title level={4}>Subscription</Title>
+        
+     
+      
+      <Button onClick={() => navigate("/subscriptions")}> View More </Button>
+       </div>
       <Row gutter={16} style={{ marginBottom: 32 }}>
         {subscriptionsData?.data?.slice(0, 4).map((sub) => (
           <Col key={sub.id}>
@@ -84,10 +90,7 @@ export const HomePage = () => {
       </Row>
 
       {/* Order Now Section */}
-      {/* <Title level={4}>Order Now</Title>
-      <Button type="primary" onClick={() => navigate("/orders")}>
-        Go to Orders
-      </Button> */}
+    
     </div>
   );
 };

@@ -739,7 +739,7 @@
   "subscriptions": [
     {
       "id": "1",
-      "name": "Daily1",
+      "name": "Daily  1",
       "price": 50,
       "createdAt": "2021-01-01",
       "updatedAt": "2021-01-01",
@@ -764,77 +764,61 @@
       ]
     },
     {
-      "id": "2",
-      "name": "Weekly",
-      "price": 300,
-      "createdAt": "2021-01-01",
-      "updatedAt": "2021-01-01",
-      "users": [
-        "6",
-        "5"
-      ],
+      "id": "1b79",
+      "userId": "u102",
       "restaurants": [
-        "r1",
-        "s12",
-        "s11"
+        "R103"
       ],
       "meals": [
-        "6443",
-        "206f",
-        "1"
+        "m3"
       ],
-      "days": [
-        "Sunday",
-        "Saturday",
-        "Friday",
-        "Thursday",
-        "Wednesday",
-        "Tuesday",
-        "Monday"
-      ],
+      "name": "Daily 2",
+      "price": 80,
       "time": [
         "breakfast",
         "lunch"
+      ],
+      "days": [
+        "Monday",
+        "Friday"
       ]
     },
     {
-      "id": "3",
-      "name": "Monthly",
-      "price": 1200,
-      "createdAt": "2021-01-01",
-      "updatedAt": "2021-01-01",
-      "meals": [
-        "6443",
-        "206f"
-      ],
+      "id": "1959",
+      "userId": "u102",
       "restaurants": [
-        "RC",
-        "SC"
+        "R101"
       ],
+      "meals": [
+        "m8"
+      ],
+      "name": "Daily 3",
+      "price": 130,
       "time": [
+        "breakfast",
+        "lunch",
         "dinner"
       ],
       "days": [
-        "Sunday",
         "Monday",
         "Wednesday",
-        "Tuesday",
         "Thursday",
-        "Friday",
-        "Saturday"
+        "Friday"
       ]
     },
     {
-      "id": "4",
-      "name": "Yearly",
-      "price": 15000,
-      "createdAt": "2021-01-01",
-      "updatedAt": "2021-01-01",
+      "id": "e6f4",
+      "userId": "u101",
       "restaurants": [
-        "TF"
+        "R106"
       ],
       "meals": [
-        "f165"
+        "m17"
+      ],
+      "name": "Weekly 1",
+      "price": 300,
+      "time": [
+        "breakfast"
       ],
       "days": [
         "Monday",
@@ -844,26 +828,21 @@
         "Friday",
         "Saturday",
         "Sunday"
-      ],
-      "time": [
-        "breakfast"
       ]
     },
     {
-      "id": "726a",
-      "name": "Premium",
-      "price": 18000,
+      "id": "6549",
+      "userId": "u103",
       "restaurants": [
-        "OC"
+        "R103"
       ],
       "meals": [
-        "1",
-        "m1",
-        "f165",
-        "206f",
-        "6443"
+        "m5"
       ],
+      "name": "Weekly 2",
+      "price": 550,
       "time": [
+        "breakfast",
         "lunch"
       ],
       "days": [
@@ -874,6 +853,156 @@
         "Friday",
         "Saturday",
         "Sunday"
+      ]
+    },
+    {
+      "id": "3064",
+      "userId": "u101",
+      "restaurants": [
+        "R102"
+      ],
+      "meals": [
+        "m19"
+      ],
+      "name": "Weekly 3",
+      "price": 800,
+      "time": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "4a59",
+      "userId": "u120",
+      "restaurants": [
+        "R120"
+      ],
+      "meals": [
+        "m9"
+      ],
+      "name": "Monthly 1",
+      "price": 1200,
+      "time": [
+        "breakfast"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "1c1b",
+      "userId": "u101",
+      "restaurants": [
+        "R120"
+      ],
+      "meals": [
+        "m15"
+      ],
+      "name": "Monthly 2",
+      "price": 2200,
+      "time": [
+        "breakfast",
+        "lunch"
+      ],
+      "days": [
+        "Monday"
+      ]
+    },
+    {
+      "id": "1252",
+      "userId": "u118",
+      "restaurants": [
+        "R120"
+      ],
+      "meals": [
+        "m2"
+      ],
+      "name": "Monthy 3",
+      "price": 4200,
+      "time": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "days": [
+        "Monday"
+      ]
+    },
+    {
+      "id": "8688",
+      "userId": "u105",
+      "restaurants": [
+        "R104"
+      ],
+      "meals": [
+        "m17"
+      ],
+      "name": "Yearly 1",
+      "price": 15000,
+      "time": [
+        "breakfast"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday"
+      ]
+    },
+    {
+      "id": "56f9",
+      "userId": "u101",
+      "restaurants": [
+        "R118"
+      ],
+      "meals": [
+        "m20"
+      ],
+      "name": "Yearly 2",
+      "price": 25000,
+      "time": [
+        "breakfast",
+        "lunch"
+      ],
+      "days": [
+        "Monday"
+      ]
+    },
+    {
+      "id": "2a70",
+      "userId": "u101",
+      "restaurants": [
+        "R101"
+      ],
+      "meals": [
+        "m1"
+      ],
+      "name": "Yearly 3",
+      "price": 40000,
+      "time": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "users": [
+        "u101"
       ]
     }
   ]

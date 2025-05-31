@@ -15,7 +15,9 @@ const timeLabels: Record<string, string> = {
 };
 
 export const SubscriptionList = () => {
-  const { tableProps } = useTable();
+  const { tableProps } = useTable({
+      pagination: { pageSize: 25 },
+    });
 
   // Gather all meal IDs from the current page's subscriptions
   const mealIds =
