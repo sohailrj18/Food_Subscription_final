@@ -1,0 +1,1009 @@
+{
+  "meals": [
+    {
+      "id": "m1",
+      "name": "Paneer Butter Masala",
+      "description": "Creamy tomato-based curry with paneer",
+      "price": 180,
+      "restaurants": [
+        "Tandoori Junction"
+      ],
+      "type": "veg",
+      "spiceLevel": "medium"
+    },
+    {
+      "id": "m2",
+      "name": "Chicken Biryani",
+      "description": "Aromatic basmati rice cooked with spiced chicken",
+      "price": 220,
+      "restaurants": [
+        "Hyderabadi Spice"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "m3",
+      "name": "Masala Dosa",
+      "description": "Crispy dosa with spicy potato filling",
+      "price": 90,
+      "restaurants": [
+        "South Bites"
+      ],
+      "type": "veg",
+      "spiceLevel": "mild"
+    },
+    {
+      "id": "m4",
+      "name": "Rogan Josh",
+      "description": "Rich Kashmiri-style lamb curry",
+      "price": 250,
+      "restaurants": [
+        "Kashmir Rasoi"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "medium"
+    },
+    {
+      "id": "m5",
+      "name": "Chole Bhature",
+      "description": "Spicy chickpeas with fluffy fried bread",
+      "price": 100,
+      "restaurants": [
+        "Punjabi Haveli"
+      ],
+      "type": "veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "m6",
+      "name": "Fish Curry",
+      "description": "Coastal-style tangy fish curry",
+      "price": 230,
+      "restaurants": [
+        "Coastal Catch"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "m7",
+      "name": "Rajma Chawal",
+      "description": "Kidney beans curry served with rice",
+      "price": 120,
+      "restaurants": [
+        "North Tadka"
+      ],
+      "type": "veg",
+      "spiceLevel": "medium"
+    },
+    {
+      "id": "m8",
+      "name": "Mutton Korma",
+      "description": "Slow-cooked mutton in rich gravy",
+      "price": 270,
+      "restaurants": [
+        "Lucknow Treats"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "medium"
+    },
+    {
+      "id": "m9",
+      "name": "Aloo Paratha",
+      "description": "Stuffed potato flatbread with butter",
+      "price": 70,
+      "restaurants": [
+        "Desi Tandoor"
+      ],
+      "type": "veg",
+      "spiceLevel": "mild"
+    },
+    {
+      "id": "m10",
+      "name": "Egg Curry",
+      "description": "Boiled eggs in spicy tomato-onion gravy",
+      "price": 140,
+      "restaurants": [
+        "Urban Curry"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "m11",
+      "name": "Baingan Bharta",
+      "description": "Smoky mashed eggplant with spices",
+      "price": 110,
+      "restaurants": [
+        "Veggie Delight"
+      ],
+      "type": "veg",
+      "spiceLevel": "medium"
+    },
+    {
+      "id": "m12",
+      "name": "Tandoori Chicken",
+      "description": "Spicy grilled chicken marinated in yogurt",
+      "price": 240,
+      "restaurants": [
+        "Tandoori Junction"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "m13",
+      "name": "Kadhi Pakora",
+      "description": "Tangy yogurt curry with gram flour dumplings",
+      "price": 100,
+      "restaurants": [
+        "Desi Zaika"
+      ],
+      "type": "veg",
+      "spiceLevel": "mild"
+    },
+    {
+      "id": "m14",
+      "name": "Butter Chicken",
+      "description": "Creamy tomato chicken curry",
+      "price": 210,
+      "restaurants": [
+        "Punjabi Haveli"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "medium"
+    },
+    {
+      "id": "m15",
+      "name": "Palak Paneer",
+      "description": "Spinach-based curry with cottage cheese",
+      "price": 150,
+      "restaurants": [
+        "Green Bowl"
+      ],
+      "type": "veg",
+      "spiceLevel": "mild"
+    },
+    {
+      "id": "m16",
+      "name": "Keema Pav",
+      "description": "Minced meat curry served with buttered buns",
+      "price": 160,
+      "restaurants": [
+        "Bombay Express"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "m17",
+      "name": "Dhokla",
+      "description": "Steamed savory gram flour cake",
+      "price": 60,
+      "restaurants": [
+        "Gujju Bhavan"
+      ],
+      "type": "veg",
+      "spiceLevel": "mild"
+    },
+    {
+      "id": "m18",
+      "name": "Prawn Masala",
+      "description": "Spiced prawn curry with coconut notes",
+      "price": 260,
+      "restaurants": [
+        "Goa Taste"
+      ],
+      "type": "non-veg",
+      "spiceLevel": "hot"
+    },
+    {
+      "id": "m19",
+      "name": "Malai Kofta",
+      "description": "Paneer and potato balls in creamy gravy",
+      "price": 180,
+      "restaurants": [
+        "Royal Rasoi"
+      ],
+      "type": "veg",
+      "spiceLevel": "mild"
+    },
+    {
+      "id": "m20",
+      "name": "Bhindi Masala",
+      "description": "Stir-fried okra with spices",
+      "price": 120,
+      "restaurants": [
+        "Veggie Delight"
+      ],
+      "type": "veg",
+      "spiceLevel": "medium"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "R101",
+      "name": "Punjabi Dhaba",
+      "status": "inactive",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R102",
+      "name": "Tandoori Nights",
+      "status": "active",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R103",
+      "name": "Spice Route",
+      "status": "inactive",
+      "subscriptionsOffered": [
+        "daily",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R104",
+      "name": "Biryani House",
+      "status": "active",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R105",
+      "name": "Andhra Spice",
+      "status": "active",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly"
+      ],
+      "mealsPerDayOffered": [
+        3
+      ]
+    },
+    {
+      "id": "R106",
+      "name": "Chaat Bazaar",
+      "status": "active",
+      "subscriptionsOffered": [
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2
+      ]
+    },
+    {
+      "id": "R107",
+      "name": "Coastal Curry",
+      "status": "inactive",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R108",
+      "name": "Mumbai Masala",
+      "status": "active",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R109",
+      "name": "Kashmir Flavours",
+      "status": "active",
+      "subscriptionsOffered": [
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R110",
+      "name": "Snack Point",
+      "status": "active",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly"
+      ],
+      "mealsPerDayOffered": [
+        2
+      ]
+    },
+    {
+      "id": "R111",
+      "name": "Egg Factory",
+      "status": "inactive",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R112",
+      "name": "Delhi Spice",
+      "status": "active",
+      "subscriptionsOffered": [
+        "daily",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R113",
+      "name": "Veggie Delight",
+      "status": "active",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2
+      ]
+    },
+    {
+      "id": "R114",
+      "name": "North Feast",
+      "status": "active",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly"
+      ],
+      "mealsPerDayOffered": [
+        3
+      ]
+    },
+    {
+      "id": "R115",
+      "name": "Sweet Tooth",
+      "status": "active",
+      "subscriptionsOffered": [
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        1
+      ]
+    },
+    {
+      "id": "R116",
+      "name": "Royal Rasoi",
+      "status": "inactive",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R117",
+      "name": "Bombay Express",
+      "status": "active",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly"
+      ],
+      "mealsPerDayOffered": [
+        2
+      ]
+    },
+    {
+      "id": "R118",
+      "name": "Goa Taste",
+      "status": "active",
+      "subscriptionsOffered": [
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        3
+      ]
+    },
+    {
+      "id": "R119",
+      "name": "Desi Zaika",
+      "status": "active",
+      "subscriptionsOffered": [
+        "daily",
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R120",
+      "name": "Green Bowl",
+      "status": "active",
+      "subscriptionsOffered": [
+        "weekly",
+        "monthly"
+      ],
+      "mealsPerDayOffered": [
+        2,
+        3
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "u201",
+      "name": "Rakesh Yadav",
+      "email": "rakesh.yadav@example.com",
+      "subscription": {
+        "id": "Monthly 2"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R112"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u202",
+      "name": "Sunita Chauhan",
+      "email": "sunita.chauhan@example.com",
+      "subscription": {
+        "id": "Weekly 1"
+      },
+      "mealsPerDay": 1,
+      "restaurant": {
+        "id": "R101"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": "u203",
+      "name": "Aman Gupta",
+      "email": "aman.gupta@example.com",
+      "subscription": {
+        "id": "Daily 2"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R105"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u204",
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "subscription": {
+        "id": "Weekly 2"
+      },
+      "mealsPerDay": 3,
+      "restaurant": {
+        "id": "R108"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u205",
+      "name": "Sandeep Singh",
+      "email": "sandeep.singh@example.com",
+      "subscription": {
+        "id": "Monthly 1"
+      },
+      "mealsPerDay": 1,
+      "restaurant": {
+        "id": "R103"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": "u206",
+      "name": "Meena Kumari",
+      "email": "meena.kumari@example.com",
+      "subscription": {
+        "id": "Daily 3"
+      },
+      "mealsPerDay": 3,
+      "restaurant": {
+        "id": "R104"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u207",
+      "name": "Vikas Jain",
+      "email": "vikas.jain@example.com",
+      "subscription": {
+        "id": "Weekly 3"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R106"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u208",
+      "name": "Neha Sinha",
+      "email": "neha.sinha@example.com",
+      "subscription": {
+        "id": "Monthly 2"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R107"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": "u209",
+      "name": "Arvind Kumar",
+      "email": "arvind.kumar@example.com",
+      "subscription": {
+        "id": "Daily 1"
+      },
+      "mealsPerDay": 1,
+      "restaurant": {
+        "id": "R109"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u210",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@example.com",
+      "subscription": {
+        "id": "Weekly 2"
+      },
+      "mealsPerDay": 3,
+      "restaurant": {
+        "id": "R110"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u211",
+      "name": "Manoj Tiwari",
+      "email": "manoj.tiwari@example.com",
+      "subscription": {
+        "id": "Monthly 1"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R111"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": "u212",
+      "name": "Pooja Deshmukh",
+      "email": "pooja.deshmukh@example.com",
+      "subscription": {
+        "id": "Daily 2"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R113"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u213",
+      "name": "Arjun Patel",
+      "email": "arjun.patel@example.com",
+      "subscription": {
+        "id": "Weekly 1"
+      },
+      "mealsPerDay": 1,
+      "restaurant": {
+        "id": "R114"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u214",
+      "name": "Divya Joshi",
+      "email": "divya.joshi@example.com",
+      "subscription": {
+        "id": "Monthly 2"
+      },
+      "mealsPerDay": 3,
+      "restaurant": {
+        "id": "R115"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": "u215",
+      "name": "Sanjay Kapoor",
+      "email": "sanjay.kapoor@example.com",
+      "subscription": {
+        "id": "Daily 3"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R116"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u216",
+      "name": "Meera Iyer",
+      "email": "meera.iyer@example.com",
+      "subscription": {
+        "id": "Weekly 3"
+      },
+      "mealsPerDay": 1,
+      "restaurant": {
+        "id": "R117"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u217",
+      "name": "Nitin Joshi",
+      "email": "nitin.joshi@example.com",
+      "subscription": {
+        "id": "Monthly 1"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R118"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": "u218",
+      "name": "Ritu Sharma",
+      "email": "ritu.sharma@example.com",
+      "subscription": {
+        "id": "Daily 1"
+      },
+      "mealsPerDay": 3,
+      "restaurant": {
+        "id": "R119"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u219",
+      "name": "Deepak Jain",
+      "email": "deepak.jain@example.com",
+      "subscription": {
+        "id": "Weekly 2"
+      },
+      "mealsPerDay": 2,
+      "restaurant": {
+        "id": "R120"
+      },
+      "status": "active"
+    },
+    {
+      "id": "u220",
+      "name": "Shalini Mishra",
+      "email": "shalini.mishra@example.com",
+      "subscription": {
+        "id": "Monthly 2"
+      },
+      "mealsPerDay": 1,
+      "restaurant": {
+        "id": "R101"
+      },
+      "status": "inactive"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "Daily 1",
+      "name": "Daily 1",
+      "price": 50,
+      "createdAt": "2021-01-01",
+      "updatedAt": "2021-01-01",
+      "users": [],
+      "restaurants": [
+        "BH"
+      ],
+      "meals": [
+        "m1"
+      ],
+      "time": [
+        "breakfast"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "Daily 2",
+      "userId": "u102",
+      "restaurants": [
+        "R103"
+      ],
+      "meals": [
+        "m3"
+      ],
+      "name": "Daily 2",
+      "price": 80,
+      "time": [
+        "breakfast",
+        "lunch"
+      ],
+      "days": [
+        "Monday",
+        "Friday"
+      ]
+    },
+    {
+      "id": "Daily 3",
+      "userId": "u102",
+      "restaurants": [
+        "R101"
+      ],
+      "meals": [
+        "m8"
+      ],
+      "name": "Daily 3",
+      "price": 130,
+      "time": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "days": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "id": "Weekly 1",
+      "userId": "u101",
+      "restaurants": [
+        "R106"
+      ],
+      "meals": [
+        "m17"
+      ],
+      "name": "Weekly 1",
+      "price": 300,
+      "time": [
+        "breakfast"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "Weekly 2",
+      "userId": "u103",
+      "restaurants": [
+        "R103"
+      ],
+      "meals": [
+        "m5"
+      ],
+      "name": "Weekly 2",
+      "price": 550,
+      "time": [
+        "breakfast",
+        "lunch"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "Weekly 3",
+      "userId": "u101",
+      "restaurants": [
+        "R102"
+      ],
+      "meals": [
+        "m19"
+      ],
+      "name": "Weekly 3",
+      "price": 800,
+      "time": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "Monthly 1",
+      "userId": "u120",
+      "restaurants": [
+        "R120"
+      ],
+      "meals": [
+        "m9"
+      ],
+      "name": "Monthly 1",
+      "price": 1200,
+      "time": [
+        "breakfast"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "Monthly 2",
+      "userId": "u101",
+      "restaurants": [
+        "R120"
+      ],
+      "meals": [
+        "m15"
+      ],
+      "name": "Monthly 2",
+      "price": 2200,
+      "time": [
+        "breakfast",
+        "lunch"
+      ],
+      "days": [
+        "Monday"
+      ]
+    },
+    {
+      "id": "Monthy 3",
+      "userId": "u118",
+      "restaurants": [
+        "R120"
+      ],
+      "meals": [
+        "m2"
+      ],
+      "name": "Monthy 3",
+      "price": 4200,
+      "time": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "days": [
+        "Monday"
+      ]
+    },
+    {
+      "id": "Yearly 1",
+      "userId": "u105",
+      "restaurants": [
+        "R104"
+      ],
+      "meals": [
+        "m17"
+      ],
+      "name": "Yearly 1",
+      "price": 15000,
+      "time": [
+        "breakfast"
+      ],
+      "days": [
+        "Monday",
+        "Tuesday"
+      ]
+    },
+    {
+      "id": "Yearly 2",
+      "userId": "u101",
+      "restaurants": [
+        "R118"
+      ],
+      "meals": [
+        "m20"
+      ],
+      "name": "Yearly 2",
+      "price": 25000,
+      "time": [
+        "breakfast",
+        "lunch"
+      ],
+      "days": [
+        "Monday"
+      ]
+    },
+    {
+      "id": "Yearly 3",
+      "userId": "u101",
+      "restaurants": [
+        "R101"
+      ],
+      "meals": [
+        "m1"
+      ],
+      "name": "Yearly 3",
+      "price": 40000,
+      "time": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "users": [
+        "u101"
+      ]
+    }
+  ]
+}
