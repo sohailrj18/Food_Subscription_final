@@ -1,24 +1,26 @@
 import { create } from "zustand";
 
 interface AppState {
-  userRole: "admin" | "user";
   filters: {
-    mealType: "all" | "veg" | "non-veg";
-    spiceLevel: null | "low" | "medium" | "high";
+    userStatus: "" | "active" | "inactive";
+    restaurantStatus: "" | "active" | "inactive";
+    mealType: "" | "veg" | "non-veg";
+    spiceLevel: "" | "mild" | "medium" | "hot";
+    search: string;
   };
   setFilters: (filters: Partial<AppState["filters"]>) => void;
-  setUserRole: (role: AppState["userRole"]) => void;
 }
 
 export const useAppStore = create<AppState>((set) => ({
-  userRole: "admin",
   filters: {
-    mealType: "all",
-    spiceLevel: null,
+    userStatus: "",
+    restaurantStatus: "",
+    mealType: "",
+    spiceLevel: "",
+    search: "",
   },
   setFilters: (filters) =>
     set((state) => ({
       filters: { ...state.filters, ...filters },
     })),
-  setUserRole: (role) => set({ userRole: role }),
 }));

@@ -1,5 +1,4 @@
 import {
-  DateField,
   DeleteButton,
   EditButton,
   List,
@@ -7,12 +6,23 @@ import {
   useTable,
 } from "@refinedev/antd";
 import { type BaseRecord, useMany } from "@refinedev/core";
-import { Select, Space, Table, Tag } from "antd";
-
+import { Select, Space, Table, Tag, Tooltip } from "antd";
+import { useAppStore } from "../../zustand/appStore";
 export const UserList: React.FC = () => {
+  const { filters: appFilters, setFilters: setAppFilters } = useAppStore();
+
   const { tableProps, filters, setFilters } = useTable({
     syncWithLocation: true,
     pagination: { pageSize: 25 },
+    filters: {
+      initial: [
+        {
+          field: "status",
+          operator: "eq",
+          value: appFilters.userStatus,
+        },
+      ],
+    },
     // Removed filters.initial to show all users by default
   });
 
@@ -29,9 +39,8 @@ export const UserList: React.FC = () => {
   const { data: restaurants } = useMany({
     resource: "restaurants",
     ids:
-      tableProps?.dataSource
-        ?.map((item) => item?.restaurant)
-        .filter(Boolean) ?? [],
+      tableProps?.dataSource?.map((item) => item?.restaurant).filter(Boolean) ??
+      [],
   });
 
   // Fetch meals (assuming 'meals' is an array of meal IDs per user)
@@ -48,10 +57,12 @@ export const UserList: React.FC = () => {
     <List>
       <div style={{ marginBottom: "1rem" }}>
         <Select
-          value={filters[0]?.value}
-          onChange={(value) =>
-            setFilters([{ field: "status", operator: "eq", value: value }])
-          }
+          defaultValue={appFilters.userStatus}
+          value={appFilters.userStatus}
+          onChange={(value) => {
+            setAppFilters({ userStatus: value });
+            setFilters([{ field: "status", operator: "eq", value: value }]);
+          }}
           options={[
             { label: "All", value: "" },
             { label: "Active", value: "active" },
@@ -60,7 +71,17 @@ export const UserList: React.FC = () => {
         />
       </div>
       <Table {...tableProps} rowKey="id">
-        <Table.Column dataIndex="id" title={"ID"} />
+        <Table.Column
+          dataIndex="id"
+          title={"ID"}
+          render={(value: any) => {
+            return (
+              <Tooltip title={value}>
+                <Tag color="blue">{value.slice(0, 5)}...</Tag>
+              </Tooltip>
+            );
+          }}
+        />
         <Table.Column dataIndex="name" title={"Name"} />
         <Table.Column dataIndex="email" title={"Email"} />
         <Table.Column
@@ -96,7 +117,7 @@ export const UserList: React.FC = () => {
             return restaurant?.name || "-";
           }}
         />
-       
+
         <Table.Column
           title={"Actions"}
           dataIndex="actions"

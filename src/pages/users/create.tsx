@@ -10,6 +10,14 @@ export const UserCreate = () => {
 
   const { selectProps: restaurantSelectProps } = useSelect({
     resource: "restaurants",
+    optionLabel: "name",
+    filters: [
+      {
+        field: "status",
+        operator: "eq",
+        value: "active",
+      },
+    ],
   });
 
   return (
@@ -24,8 +32,9 @@ export const UserCreate = () => {
               message: "Please enter a user ID",
             },
           ]}
+          initialValue={crypto.randomUUID()}
         >
-          <Input placeholder="Enter user ID" />
+          <Input placeholder="Enter user ID" disabled />
         </Form.Item>
         <Form.Item
           label={"Name"}
@@ -60,7 +69,7 @@ export const UserCreate = () => {
         >
           <Select {...subscriptionSelectProps} />
         </Form.Item>
-        <Form.Item
+        {/* <Form.Item
           label={"Meals Per Day"}
           name={["mealsPerDay"]}
           rules={[
@@ -79,7 +88,7 @@ export const UserCreate = () => {
             placeholder="Select times per day"
             style={{ width: 180 }}
           />
-        </Form.Item>
+        </Form.Item> */}
         <Form.Item
           label={"Restaurant"}
           name={["restaurant", "id"]}
@@ -107,7 +116,6 @@ export const UserCreate = () => {
               { value: "inactive", label: "Inactive" },
             ]}
             defaultValue={"active"}
-            style={{ width: 120 }}
           />
         </Form.Item>
       </Form>

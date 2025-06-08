@@ -225,7 +225,7 @@
     {
       "id": "R101",
       "name": "Punjabi Dhaba",
-      "status": "inactive",
+      "status": "active",
       "subscriptionsOffered": [
         "daily",
         "weekly",
@@ -278,7 +278,7 @@
     {
       "id": "R105",
       "name": "Andhra Spice",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "daily",
         "weekly"
@@ -290,7 +290,7 @@
     {
       "id": "R106",
       "name": "Chaat Bazaar",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "monthly"
       ],
@@ -301,7 +301,7 @@
     {
       "id": "R107",
       "name": "Coastal Curry",
-      "status": "inactive",
+      "status": "active",
       "subscriptionsOffered": [
         "weekly",
         "monthly"
@@ -314,7 +314,7 @@
     {
       "id": "R108",
       "name": "Mumbai Masala",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "daily",
         "weekly"
@@ -364,7 +364,7 @@
     {
       "id": "R112",
       "name": "Delhi Spice",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "daily",
         "monthly"
@@ -377,7 +377,7 @@
     {
       "id": "R113",
       "name": "Veggie Delight",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "weekly",
         "monthly"
@@ -389,7 +389,7 @@
     {
       "id": "R114",
       "name": "North Feast",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "daily",
         "weekly"
@@ -401,7 +401,7 @@
     {
       "id": "R115",
       "name": "Sweet Tooth",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "monthly"
       ],
@@ -425,7 +425,7 @@
     {
       "id": "R117",
       "name": "Bombay Express",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "daily",
         "weekly"
@@ -437,7 +437,7 @@
     {
       "id": "R118",
       "name": "Goa Taste",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "monthly"
       ],
@@ -448,7 +448,7 @@
     {
       "id": "R119",
       "name": "Desi Zaika",
-      "status": "active",
+      "status": "inactive",
       "subscriptionsOffered": [
         "daily",
         "weekly",
@@ -484,7 +484,7 @@
       },
       "mealsPerDay": 2,
       "restaurant": {
-        "id": "R112"
+        "id": "R101"
       },
       "status": "active"
     },
@@ -536,7 +536,7 @@
       },
       "mealsPerDay": 1,
       "restaurant": {
-        "id": "R103"
+        "id": "R120"
       },
       "status": "inactive"
     },
@@ -734,6 +734,18 @@
         "id": "R101"
       },
       "status": "inactive"
+    },
+    {
+      "id": "41043a8d-955b-427f-91ff-cf34427227b1",
+      "name": "Rakesh Harsha",
+      "email": "rakesh@gmail.com",
+      "subscription": {
+        "id": "Daily 2"
+      },
+      "restaurant": {
+        "id": "R105"
+      },
+      "status": "active"
     }
   ],
   "subscriptions": [

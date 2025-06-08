@@ -21,6 +21,14 @@ export const UserEdit = () => {
     queryOptions: {
       enabled: true,
     },
+    optionLabel: "name",
+    filters: [
+      {
+        field: "status",
+        operator: "eq",
+        value: "active",
+      },
+    ],
   });
 
   return (
@@ -56,7 +64,7 @@ export const UserEdit = () => {
         >
           <Select {...restaurantSelectProps} />
         </Form.Item>
-        
+
         <Form.Item
           label={"Subscription"}
           name={["subscription", "id"]}
@@ -69,8 +77,8 @@ export const UserEdit = () => {
         >
           <Select {...subscriptionSelectProps} />
         </Form.Item>
-        
-        <Form.Item
+
+        {/* <Form.Item
           label={"Meals Per Day"}
           name={["mealsPerDay"]}
           initialValue={formProps?.initialValues?.mealsPerDay}
@@ -90,7 +98,7 @@ export const UserEdit = () => {
             placeholder="Select times per day"
             style={{ width: 180 }}
           />
-        </Form.Item>
+        </Form.Item> */}
         <Form.Item
           label={"Status"}
           name={["status"]}
@@ -107,7 +115,6 @@ export const UserEdit = () => {
               { value: "inactive", label: "Inactive" },
             ]}
             defaultValue={formProps?.initialValues?.status}
-            style={{ width: 120 }}
           />
         </Form.Item>
       </Form>

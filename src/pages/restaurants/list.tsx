@@ -6,12 +6,23 @@ import {
   useTable,
 } from "@refinedev/antd";
 import { type BaseRecord, useUpdate } from "@refinedev/core";
-import { Space, Table, Button, Tag } from "antd";
-
+import { Space, Table, Button, Tag, Select, Switch } from "antd";
+import { useAppStore } from "../../zustand/appStore";
 export const RestaurantList = () => {
-  const { tableProps } = useTable({
+  const { filters: appFilters, setFilters: setAppFilters } = useAppStore();
+
+  const { tableProps, filters, setFilters } = useTable({
     syncWithLocation: true,
     pagination: { pageSize: 25 },
+    filters: {
+      initial: [
+        {
+          field: "status",
+          operator: "eq",
+          value: appFilters.restaurantStatus,
+        },
+      ],
+    },
   });
 
   const { mutate: updateRestaurant, isLoading: isUpdating } = useUpdate();
@@ -35,6 +46,22 @@ export const RestaurantList = () => {
 
   return (
     <List>
+      <div style={{ marginBottom: "1rem" }}>
+        <Select
+          value={appFilters.restaurantStatus}
+          onChange={(value) => {
+            setAppFilters({ restaurantStatus: value });
+            setFilters([{ field: "status", operator: "eq", value: value }]);
+          }}
+          defaultValue={appFilters.restaurantStatus}
+          options={[
+            { label: "All", value: "" },
+            { label: "Active", value: "active" },
+            { label: "Inactive", value: "inactive" },
+          ]}
+          style={{ width: 120 }}
+        />
+      </div>
       <Table {...tableProps} rowKey="id">
         <Table.Column dataIndex="id" title={"ID"} />
         <Table.Column dataIndex="name" title={"Name"} />
@@ -57,13 +84,19 @@ export const RestaurantList = () => {
               <EditButton hideText size="small" recordItemId={record.id} />
               <ShowButton hideText size="small" recordItemId={record.id} />
               <DeleteButton hideText size="small" recordItemId={record.id} />
-              <Button
+              {/* <Button
                 size="small"
                 loading={isUpdating}
                 onClick={() => handleToggleStatus(record)}
               >
                 Toggle Status
-              </Button>
+              </Button> */}
+              {/* update with a actual switch button */}
+              <Switch
+                checked={record.status === "active"}
+                onChange={() => handleToggleStatus(record)}
+                loading={isUpdating}
+              />
             </Space>
           )}
         />
